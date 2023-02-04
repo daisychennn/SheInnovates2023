@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_dc15b654a170653c37cc94c717a9a46d {
+                #map_e2c83310657292437ee721f1ed2beb4d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,32 +39,328 @@
 <body>
     
     
-            <div class="folium-map" id="map_dc15b654a170653c37cc94c717a9a46d" ></div>
+            <div class="folium-map" id="map_e2c83310657292437ee721f1ed2beb4d" ></div>
         
 </body>
 <script>
     
     
-            var map_dc15b654a170653c37cc94c717a9a46d = L.map(
-                "map_dc15b654a170653c37cc94c717a9a46d",
+            var map_e2c83310657292437ee721f1ed2beb4d = L.map(
+                "map_e2c83310657292437ee721f1ed2beb4d",
                 {
-                    center: [40.4426, -79.9564],
+                    center: [40.443257, -79.954832],
                     crs: L.CRS.EPSG3857,
                     zoom: 16.5,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_dc15b654a170653c37cc94c717a9a46d);
+            L.control.scale().addTo(map_e2c83310657292437ee721f1ed2beb4d);
 
             
 
         
     
-            var tile_layer_c7d19cca9c425477a3301ad34e40578f = L.tileLayer(
+            var tile_layer_8b7c3045b60f9ccf05f8ead2fc904d8e = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_dc15b654a170653c37cc94c717a9a46d);
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            var marker_ffe0c8eea4472dee71d3c8dc58699935 = L.marker(
+                [40.443257, -79.954832],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_ffe0c8eea4472dee71d3c8dc58699935.bindTooltip(
+                `<div>
+                     Wicked Pie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_857d084882e382fed684d3193135f3fb = L.marker(
+                [40.443155, -79.954902],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_857d084882e382fed684d3193135f3fb.bindTooltip(
+                `<div>
+                     PA Taco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_500c9976e4c1fd8d4aec469f2a0f711c = L.marker(
+                [40.443179, -79.954773],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_500c9976e4c1fd8d4aec469f2a0f711c.bindTooltip(
+                `<div>
+                     True Burger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19786690c75fb3e8ddddb1c735b46382 = L.marker(
+                [40.443159, -79.954854],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_19786690c75fb3e8ddddb1c735b46382.bindTooltip(
+                `<div>
+                     CrEATe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9144d9e48a4af7c449e457a60ae98213 = L.marker(
+                [40.443118, -79.954924],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_9144d9e48a4af7c449e457a60ae98213.bindTooltip(
+                `<div>
+                     Ft. Pitt Subs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc29123019fad9f75bcec65fde40c23e = L.marker(
+                [40.44438, -79.953171],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_bc29123019fad9f75bcec65fde40c23e.bindTooltip(
+                `<div>
+                     The Roost
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89fe55584d1e020e7ea96ba335ad60fa = L.marker(
+                [40.444458, -79.953204],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_89fe55584d1e020e7ea96ba335ad60fa.bindTooltip(
+                `<div>
+                     Pam & Honey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df5ac141297c41b98f11e4e1d3cf9a4e = L.marker(
+                [40.44447, -79.953231],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_df5ac141297c41b98f11e4e1d3cf9a4e.bindTooltip(
+                `<div>
+                     Cathedral Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0393d0e319ef47e27e8a5e0d4eac8f2 = L.marker(
+                [40.444348, -79.953171],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_e0393d0e319ef47e27e8a5e0d4eac8f2.bindTooltip(
+                `<div>
+                     Saxbys
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f76a2a39a6a417af5a36004c2d493cb = L.marker(
+                [40.44232, -79.953906],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_6f76a2a39a6a417af5a36004c2d493cb.bindTooltip(
+                `<div>
+                     Saxbys
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcfc0e296609a24b688b88cbd9cadb5f = L.marker(
+                [40.44147, -79.954512],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_dcfc0e296609a24b688b88cbd9cadb5f.bindTooltip(
+                `<div>
+                     Einstein Bros Bagels
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16eb03b7534282dde42585ebb1354cc2 = L.marker(
+                [40.443526, -79.955749],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_16eb03b7534282dde42585ebb1354cc2.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_182986906c5fa0b115ba921626bda3c8 = L.marker(
+                [40.443764, -79.962283],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_182986906c5fa0b115ba921626bda3c8.bindTooltip(
+                `<div>
+                     BBQ Smokeland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a2a382ea800eded99f31ba479e7401a = L.marker(
+                [40.443817, -79.962337],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_3a2a382ea800eded99f31ba479e7401a.bindTooltip(
+                `<div>
+                     Shake Smart
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20f242c704be64d4f785069efa8e7268 = L.marker(
+                [40.443903, -79.962417],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_20f242c704be64d4f785069efa8e7268.bindTooltip(
+                `<div>
+                     Chick-fil-a
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa64966d233ebad96433a8d649a042c7 = L.marker(
+                [40.443948, -79.962455],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_fa64966d233ebad96433a8d649a042c7.bindTooltip(
+                `<div>
+                     Burrito Bowl
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_028a687880475b7760cd42a660a2df3a = L.marker(
+                [32.07148197, 34.7876717],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+        var popup_627292a66ff0766da60153ba82863978 = L.popup({"maxHeight": 600, "maxWidth": 600});
+
+        
+            
+                var html_46a28b7cd11cbc4b832109869cd6879a = $(`<div id="html_46a28b7cd11cbc4b832109869cd6879a" style="width: 100.0%; height: 100.0%;">Wicked Pizza</div>`)[0];
+                popup_627292a66ff0766da60153ba82863978.setContent(html_46a28b7cd11cbc4b832109869cd6879a);
+            
+        
+
+        marker_028a687880475b7760cd42a660a2df3a.bindPopup(popup_627292a66ff0766da60153ba82863978)
+        ;
+
+        
+    
+    
+            marker_028a687880475b7760cd42a660a2df3a.bindTooltip(
+                `<div>
+                     Wicked Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef00864d1410e6a8d8a7052048abbbc0 = L.marker(
+                [32.07148197, 34.7876717],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+        var popup_617e40239c0b8a4eb47b1d9bfa1672f9 = L.popup({"maxHeight": 600, "maxWidth": 600});
+
+        
+            
+                var html_ed574839c8879a25d69ef6a2a0a0f752 = $(`<div id="html_ed574839c8879a25d69ef6a2a0a0f752" style="width: 100.0%; height: 100.0%;">Wicked Pizza</div>`)[0];
+                popup_617e40239c0b8a4eb47b1d9bfa1672f9.setContent(html_ed574839c8879a25d69ef6a2a0a0f752);
+            
+        
+
+        marker_03916dc306dc135951d0a43d97f155b8.bindPopup(popup_617e40239c0b8a4eb47b1d9bfa1672f9)
+        ;
+
+        
+    
+    
+            marker_ef00864d1410e6a8d8a7052048abbbc0.bindTooltip(
+                `<div>
+                     Wicked Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03916dc306dc135951d0a43d97f155b8 = L.marker(
+                [32.07148197, 34.7876717],
+                {}
+            ).addTo(map_e2c83310657292437ee721f1ed2beb4d);
+        
+    
+            marker_03916dc306dc135951d0a43d97f155b8.bindTooltip(
+                `<div>
+                     Wicked Pizza
+                 </div>`,
+                {"sticky": true}
+            );
         
 </script>
 </html>

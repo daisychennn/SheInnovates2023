@@ -16,9 +16,6 @@ m = folium.Map(location=[40.4426, -79.9564], tiles='Stamen Terrain', zoom_start=
 m.save('Pitt Map')
 
 
-m = folium.Map(location=[40.443257, -79.954832], tiles='Stamen Terrain', zoom_start=16.5, control_scale = True)
-m.save('Pitt Map')
-
 #WPU
 #group these places together into Schenley Cafe
 
@@ -63,3 +60,5 @@ popup  = folium.Popup('Wicked Pizza', max_width=600, max_height=600)
 folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
 folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
 m
+
+m.save('Pitt Map')
