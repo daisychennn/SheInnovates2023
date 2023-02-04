@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c133c6a6cc7b696e41342ad315c3a203 {
+                #map_c6714d2e8b50a5e4adabfc610d718968 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_c133c6a6cc7b696e41342ad315c3a203" ></div>
+            <div class="folium-map" id="map_c6714d2e8b50a5e4adabfc610d718968" ></div>
         
 </body>
 <script>
     
     
-            var map_c133c6a6cc7b696e41342ad315c3a203 = L.map(
-                "map_c133c6a6cc7b696e41342ad315c3a203",
+            var map_c6714d2e8b50a5e4adabfc610d718968 = L.map(
+                "map_c6714d2e8b50a5e4adabfc610d718968",
                 {
                     center: [40.4426, -79.9564],
                     crs: L.CRS.EPSG3857,
@@ -55,25 +55,25 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            L.control.scale().addTo(map_c6714d2e8b50a5e4adabfc610d718968);
 
             
 
         
     
-            var tile_layer_d04a0838b748f5230c1da0bbc6555fb3 = L.tileLayer(
+            var tile_layer_e4bee9e2fa8ddd29839f264d2ebc3054 = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            var marker_ab50756ebf492df4912456dbb3cd0fde = L.marker(
+            var marker_8ee3da93ef0bffb8911a6c38bfa97e41 = L.marker(
                 [40.443257, -79.954832],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_ab50756ebf492df4912456dbb3cd0fde.bindTooltip(
+            marker_8ee3da93ef0bffb8911a6c38bfa97e41.bindTooltip(
                 `<div>
                      Wicked Pie
                  </div>`,
@@ -81,13 +81,13 @@
             );
         
     
-            var marker_932fbbc90f4844a6860ac79e41272b87 = L.marker(
+            var marker_7737058a2f46d11b629c724c3dc1a00b = L.marker(
                 [40.443155, -79.954902],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_932fbbc90f4844a6860ac79e41272b87.bindTooltip(
+            marker_7737058a2f46d11b629c724c3dc1a00b.bindTooltip(
                 `<div>
                      PA Taco
                  </div>`,
@@ -95,13 +95,13 @@
             );
         
     
-            var marker_310211ceb295b3a5019c7f538b716832 = L.marker(
+            var marker_bdb4eb038ec81a5af94bfb4ef8f481ef = L.marker(
                 [40.443179, -79.954773],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_310211ceb295b3a5019c7f538b716832.bindTooltip(
+            marker_bdb4eb038ec81a5af94bfb4ef8f481ef.bindTooltip(
                 `<div>
                      True Burger
                  </div>`,
@@ -109,13 +109,13 @@
             );
         
     
-            var marker_869b31e0278d270689d3e803749eae92 = L.marker(
+            var marker_c7af5c779a0399164256b8a8f6545922 = L.marker(
                 [40.443159, -79.954854],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_869b31e0278d270689d3e803749eae92.bindTooltip(
+            marker_c7af5c779a0399164256b8a8f6545922.bindTooltip(
                 `<div>
                      CrEATe
                  </div>`,
@@ -123,13 +123,13 @@
             );
         
     
-            var marker_22708d4ae71b3651dd0c567d8a9ee61e = L.marker(
+            var marker_9c52f8d5a661619e4a28634261841f1b = L.marker(
                 [40.443118, -79.954924],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_22708d4ae71b3651dd0c567d8a9ee61e.bindTooltip(
+            marker_9c52f8d5a661619e4a28634261841f1b.bindTooltip(
                 `<div>
                      Ft. Pitt Subs
                  </div>`,
@@ -137,13 +137,13 @@
             );
         
     
-            var marker_3b94434583b8c0f19d414658b590e467 = L.marker(
+            var marker_ba5c9a004c4c0cdcddc8ad2d2d291b42 = L.marker(
                 [40.44438, -79.953171],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_3b94434583b8c0f19d414658b590e467.bindTooltip(
+            marker_ba5c9a004c4c0cdcddc8ad2d2d291b42.bindTooltip(
                 `<div>
                      The Roost
                  </div>`,
@@ -151,13 +151,13 @@
             );
         
     
-            var marker_616cdc7646efc294b7927ece46f09fb9 = L.marker(
+            var marker_67d57a9f4b57835831a7eb19fbcc8304 = L.marker(
                 [40.444458, -79.953204],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_616cdc7646efc294b7927ece46f09fb9.bindTooltip(
+            marker_67d57a9f4b57835831a7eb19fbcc8304.bindTooltip(
                 `<div>
                      Pam & Honey
                  </div>`,
@@ -165,13 +165,13 @@
             );
         
     
-            var marker_e52d216951e53ed090a7c81660b18d98 = L.marker(
+            var marker_6c8d84e3d6f8783f33232d71a53cbbdd = L.marker(
                 [40.44447, -79.953231],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_e52d216951e53ed090a7c81660b18d98.bindTooltip(
+            marker_6c8d84e3d6f8783f33232d71a53cbbdd.bindTooltip(
                 `<div>
                      Cathedral Sushi
                  </div>`,
@@ -179,13 +179,13 @@
             );
         
     
-            var marker_34620d28d117ffcc7dd494263d57ab06 = L.marker(
+            var marker_71d39a82409b22ccdf2ffc5cf667cabd = L.marker(
                 [40.444348, -79.953171],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_34620d28d117ffcc7dd494263d57ab06.bindTooltip(
+            marker_71d39a82409b22ccdf2ffc5cf667cabd.bindTooltip(
                 `<div>
                      Saxbys
                  </div>`,
@@ -193,13 +193,13 @@
             );
         
     
-            var marker_33e28951628e9df481b05d227495f81e = L.marker(
+            var marker_db2e67872e78f36ba6beaf3fd5c0a9c2 = L.marker(
                 [40.44232, -79.953906],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_33e28951628e9df481b05d227495f81e.bindTooltip(
+            marker_db2e67872e78f36ba6beaf3fd5c0a9c2.bindTooltip(
                 `<div>
                      Saxbys
                  </div>`,
@@ -207,13 +207,13 @@
             );
         
     
-            var marker_a16c2c612862eb2436a2fad74330bc20 = L.marker(
+            var marker_d250e6de2a92544a26b68b7d0110ebd8 = L.marker(
                 [40.44147, -79.954512],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_a16c2c612862eb2436a2fad74330bc20.bindTooltip(
+            marker_d250e6de2a92544a26b68b7d0110ebd8.bindTooltip(
                 `<div>
                      Einstein Bros Bagels
                  </div>`,
@@ -221,13 +221,13 @@
             );
         
     
-            var marker_efe32ca6dd6f0a75bff8215f44b89a8c = L.marker(
+            var marker_e59aa031648f7d7d73b1fb97be413a97 = L.marker(
                 [40.443526, -79.955749],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_efe32ca6dd6f0a75bff8215f44b89a8c.bindTooltip(
+            marker_e59aa031648f7d7d73b1fb97be413a97.bindTooltip(
                 `<div>
                      Starbucks
                  </div>`,
@@ -235,13 +235,13 @@
             );
         
     
-            var marker_ccfc31a525b83351cf32c2ea190d2d72 = L.marker(
+            var marker_3e51a9d880d17c95fce84b2dec5305f1 = L.marker(
                 [40.443764, -79.962283],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_ccfc31a525b83351cf32c2ea190d2d72.bindTooltip(
+            marker_3e51a9d880d17c95fce84b2dec5305f1.bindTooltip(
                 `<div>
                      BBQ Smokeland
                  </div>`,
@@ -249,13 +249,13 @@
             );
         
     
-            var marker_387e6f3b3d661d7e260a1ade4538a613 = L.marker(
+            var marker_89d79950abb38bde84a82987a7169f0c = L.marker(
                 [40.443817, -79.962337],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_387e6f3b3d661d7e260a1ade4538a613.bindTooltip(
+            marker_89d79950abb38bde84a82987a7169f0c.bindTooltip(
                 `<div>
                      Shake Smart
                  </div>`,
@@ -263,13 +263,13 @@
             );
         
     
-            var marker_3364cecbfdd8deadde580b309d906bd2 = L.marker(
+            var marker_4471633823624fa0067d7ad199dabe59 = L.marker(
                 [40.443903, -79.962417],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_3364cecbfdd8deadde580b309d906bd2.bindTooltip(
+            marker_4471633823624fa0067d7ad199dabe59.bindTooltip(
                 `<div>
                      Chick-fil-a
                  </div>`,
@@ -277,13 +277,13 @@
             );
         
     
-            var marker_35979f538ea6289dd0598522ebed8a75 = L.marker(
+            var marker_02e2eb1f5fdd951ddbe494e865039f6b = L.marker(
                 [40.443948, -79.962455],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-            marker_35979f538ea6289dd0598522ebed8a75.bindTooltip(
+            marker_02e2eb1f5fdd951ddbe494e865039f6b.bindTooltip(
                 `<div>
                      Burrito Bowl
                  </div>`,
@@ -291,57 +291,28 @@
             );
         
     
-            var marker_5ea5ae2ba13ba16d7f679288461db7cc = L.marker(
-                [32.07148197, 34.7876717],
-                {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
-        
-    
-        var popup_b195791f74758fe4f18e31ede3be2ece = L.popup({"maxHeight": 600, "maxWidth": 600});
-
-        
-            
-                var html_6cc651595e89b179ed99f6702d58d5e1 = $(`<div id="html_6cc651595e89b179ed99f6702d58d5e1" style="width: 100.0%; height: 100.0%;">Wicked Pizza</div>`)[0];
-                popup_b195791f74758fe4f18e31ede3be2ece.setContent(html_6cc651595e89b179ed99f6702d58d5e1);
-            
-        
-
-        marker_5ea5ae2ba13ba16d7f679288461db7cc.bindPopup(popup_b195791f74758fe4f18e31ede3be2ece)
-        ;
-
-        
-    
-    
-            marker_5ea5ae2ba13ba16d7f679288461db7cc.bindTooltip(
-                `<div>
-                     Wicked Pizza
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_7351447df6b140d4446648719344dd00 = L.marker(
+            var marker_bc16f17c118636f263762c81dce5ea03 = L.marker(
                 [40.4441782, -79.9582627],
                 {}
-            ).addTo(map_c133c6a6cc7b696e41342ad315c3a203);
+            ).addTo(map_c6714d2e8b50a5e4adabfc610d718968);
         
     
-        var popup_b5e92d7a90a4ce312787c05f48a2256e = L.popup({"maxHeight": 600, "maxWidth": 600});
+        var popup_43cd5ffdc1f4ae46764dcc61a5cad410 = L.popup({"maxHeight": 600, "maxWidth": 600});
 
         
             
-                var html_800b7a77fc3c81ded0d544709eabd974 = $(`<div id="html_800b7a77fc3c81ded0d544709eabd974" style="width: 100.0%; height: 100.0%;">Einstein Bros Bagels</div>`)[0];
-                popup_b5e92d7a90a4ce312787c05f48a2256e.setContent(html_800b7a77fc3c81ded0d544709eabd974);
+                var html_af2ba396f6cd20fea8400417c89ef89c = $(`<div id="html_af2ba396f6cd20fea8400417c89ef89c" style="width: 100.0%; height: 100.0%;">Einstein Bros Bagels</div>`)[0];
+                popup_43cd5ffdc1f4ae46764dcc61a5cad410.setContent(html_af2ba396f6cd20fea8400417c89ef89c);
             
         
 
-        marker_7351447df6b140d4446648719344dd00.bindPopup(popup_b5e92d7a90a4ce312787c05f48a2256e)
+        marker_bc16f17c118636f263762c81dce5ea03.bindPopup(popup_43cd5ffdc1f4ae46764dcc61a5cad410)
         ;
 
         
     
     
-            marker_7351447df6b140d4446648719344dd00.bindTooltip(
+            marker_bc16f17c118636f263762c81dce5ea03.bindTooltip(
                 `<div>
                      Einstein Bros Bagels
                  </div>`,
