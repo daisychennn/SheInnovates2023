@@ -5,6 +5,7 @@ import imageio
 import cv2
 import requests
 import io
+import webbrowser
 
 url = "https://raw.githubusercontent.com/daisychennn/SheInnovates2023/main/Pitt-Dining.csv"
 r = requests.get(url)
@@ -50,11 +51,12 @@ folium.vector_layers.Marker(location=[40.443817, -79.962337], tooltip='Shake Sma
 folium.vector_layers.Marker(location=[40.443903, -79.962417], tooltip='Chick-fil-a').add_to(m)
 folium.vector_layers.Marker(location=[40.443948, -79.962455], tooltip='Burrito Bowl').add_to(m)
 
-popup  = folium.Popup('Wicked Pizza', max_width=600, max_height=600)
-folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
+popup  = folium.Popup('Wicked Pie', max_width=600, max_height=600)
+folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pie', popup = popup).add_to(m)
 
-popup  = folium.Popup('Wicked Pizza', max_width=600, max_height=600)
-folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
-folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
+popup  = folium.Popup('Einstein Bros Bagels', max_width=600, max_height=600)
+folium.vector_layers.Marker(location=[40.4441782,-79.9582627], tooltip='Einstein Bros Bagels', popup = popup).add_to(m)
 
 m.save('Pitt Map')
+u = 'file:///Users/daisychen/Desktop/SheInnovates2023/Pitt Map'
+webbrowser.open(u, new=0)
