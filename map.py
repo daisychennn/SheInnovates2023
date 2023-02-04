@@ -13,7 +13,6 @@ df = pd.read_csv(io.StringIO(r.text))
 
 
 m = folium.Map(location=[40.4426, -79.9564], tiles='Stamen Terrain', zoom_start=16.5, control_scale = True)
-m.save('Pitt Map')
 
 
 #WPU
@@ -50,15 +49,12 @@ folium.vector_layers.Marker(location=[40.443764, -79.962283], tooltip='BBQ Smoke
 folium.vector_layers.Marker(location=[40.443817, -79.962337], tooltip='Shake Smart').add_to(m)
 folium.vector_layers.Marker(location=[40.443903, -79.962417], tooltip='Chick-fil-a').add_to(m)
 folium.vector_layers.Marker(location=[40.443948, -79.962455], tooltip='Burrito Bowl').add_to(m)
-m
 
 popup  = folium.Popup('Wicked Pizza', max_width=600, max_height=600)
 folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
-m
 
 popup  = folium.Popup('Wicked Pizza', max_width=600, max_height=600)
 folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
 folium.vector_layers.Marker(location=[32.07148197,34.7876717], tooltip='Wicked Pizza', popup = popup).add_to(m)
-m
 
 m.save('Pitt Map')
