@@ -44,42 +44,50 @@ icon_star = BeautifyIcon(
 
 #WPU
 #group these places together into Schenley Cafe
+folium.vector_layers.Marker(location=[40.443257, -79.954832], tooltip='Wicked Pie (*V), American').add_to(m)
+folium.vector_layers.Marker(location=[40.443155, -79.954902], tooltip='PA Taco (*V), Mexican').add_to(m)
+folium.vector_layers.Marker(location=[40.443179, -79.954773], tooltip='True Burger (*V), American').add_to(m)
+folium.vector_layers.Marker(location=[40.443159, -79.954854], tooltip='CrEATe (*V), American').add_to(m)
+folium.vector_layers.Marker(location=[40.443118, -79.954924], tooltip='Ft. Pitt Subs (*V), American').add_to(m)
 
-folium.vector_layers.Marker(location=[40.443257, -79.954832], tooltip='Wicked Pie (*V)').add_to(m)
-folium.vector_layers.Marker(location=[40.443155, -79.954902], tooltip='PA Taco (*V)').add_to(m)
-folium.vector_layers.Marker(location=[40.443179, -79.954773], tooltip='True Burger (*V)').add_to(m)
-folium.vector_layers.Marker(location=[40.443159, -79.954854], tooltip='CrEATe (*V)').add_to(m)
-folium.vector_layers.Marker(location=[40.443118, -79.954924], tooltip='Ft. Pitt Subs (*V)').add_to(m)
+#Towers
+folium.vector_layers.Marker(location=[40.442584, -79.9564556], tooltip='Milk and Cookies (*V), Dessert').add_to(m)
+folium.vector_layers.Marker(location=[40.442582, -79.956505], tooltip='The Kosher Plate (*V), Kosher').add_to(m)
+folium.vector_layers.Marker(location=[40.4426011, -79.956416], tooltip='The Eatery (*V), Dining Hall').add_to(m)
+folium.vector_layers.Marker(location=[40.4426, -79.9564], tooltip='The Pierogi (*V), Polish').add_to(m)
+
+#Sutherland
+folium.vector_layers.Marker(location=[40.44580556, -79.962487], tooltip='The Perch (*V), Dining Hall').add_to(m)
 
 
 #Cathy
-folium.vector_layers.Marker(location=[40.444380, -79.953171], tooltip='The Roost').add_to(m)
-folium.vector_layers.Marker(location=[40.444458, -79.953204], tooltip='Pam & Honey (*V)').add_to(m)
-folium.vector_layers.Marker(location=[40.444470, -79.953231], tooltip='Cathedral Sushi').add_to(m)
-folium.vector_layers.Marker(location=[40.444348, -79.953171], tooltip='Saxbys (*V)').add_to(m)
+folium.vector_layers.Marker(location=[40.444380, -79.953171], tooltip='The Roost, American').add_to(m)
+folium.vector_layers.Marker(location=[40.444458, -79.953204], tooltip='Pam & Honey (*V), Mediterranean').add_to(m)
+folium.vector_layers.Marker(location=[40.444470, -79.953231], tooltip='Cathedral Sushi, Japanese').add_to(m)
+folium.vector_layers.Marker(location=[40.444348, -79.953171], tooltip='Saxbys (*V), Coffee').add_to(m)
 
 
 #Hillman
-folium.vector_layers.Marker(location=[40.442320, -79.953906], tooltip='Saxbys (*V)').add_to(m)
+folium.vector_layers.Marker(location=[40.442320, -79.953906], tooltip='Saxbys (*V), Coffee').add_to(m)
 
 
 #Posvar
-folium.vector_layers.Marker(location=[40.441470, -79.954512], tooltip='Einstein Bros Bagels (*V)').add_to(m)
+folium.vector_layers.Marker(location=[40.441470, -79.954512], tooltip='Einstein Bros Bagels (*V), American').add_to(m)
 
 
 #Amos's Starbucks (mark it as doesn't accept dining dollars/panther funds/meal swaps, etc)
-folium.vector_layers.Marker(location=[40.443526, -79.955749], tooltip='Starbucks (*V)').add_to(m)
+folium.vector_layers.Marker(location=[40.443526, -79.955749], tooltip='Starbucks (*V), Coffee').add_to(m)
 
 
 #Pete
-folium.vector_layers.Marker(location=[40.443764, -79.962283], tooltip='BBQ Smokeland').add_to(m)
-folium.vector_layers.Marker(location=[40.443817, -79.962337], tooltip='Shake Smart (*V)').add_to(m)
-folium.vector_layers.Marker(location=[40.443903, -79.962417], tooltip='Chick-fil-a').add_to(m)
-folium.vector_layers.Marker(location=[40.443948, -79.962455], tooltip='Burrito Bowl (*V)').add_to(m)
+folium.vector_layers.Marker(location=[40.443764, -79.962283], tooltip='BBQ Smokeland, American').add_to(m)
+folium.vector_layers.Marker(location=[40.443817, -79.962337], tooltip='Shake Smart (*V), Dessert').add_to(m)
+folium.vector_layers.Marker(location=[40.443903, -79.962417], tooltip='Chick-fil-a, American').add_to(m)
+folium.vector_layers.Marker(location=[40.443948, -79.962455], tooltip='Burrito Bowl (*V), Mexican').add_to(m)
 
 #Benedum
 popup  = folium.Popup('Einstein Bros Bagels', max_width=600, max_height=600)
-folium.vector_layers.Marker(location=[40.4441782,-79.9582627], tooltip='Einstein Bros Bagels (*V)').add_to(m)
+folium.vector_layers.Marker(location=[40.4441782,-79.9582627], tooltip='Einstein Bros Bagels (*V), American').add_to(m)
 
 #Study Areas
 folium.vector_layers.Marker(location=[40.443922, -79.958131], tooltip='Bevier Engineering Library', icon=folium.Icon(color='red')).add_to(m)

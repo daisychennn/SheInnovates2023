@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_673086941b45d472735657731c84718d {
+                #map_523234bc98efdd44100f067fbd6145b7 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,7 +39,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_673086941b45d472735657731c84718d" ></div>
+            <div class="folium-map" id="map_523234bc98efdd44100f067fbd6145b7" ></div>
         
     
 
@@ -133,8 +133,8 @@
 <script>
     
     
-            var map_673086941b45d472735657731c84718d = L.map(
-                "map_673086941b45d472735657731c84718d",
+            var map_523234bc98efdd44100f067fbd6145b7 = L.map(
+                "map_523234bc98efdd44100f067fbd6145b7",
                 {
                     center: [40.4426, -79.9564],
                     crs: L.CRS.EPSG3857,
@@ -143,269 +143,339 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_673086941b45d472735657731c84718d);
+            L.control.scale().addTo(map_523234bc98efdd44100f067fbd6145b7);
 
             
 
         
     
-            var tile_layer_9799df3f08f4adeb4ba5bb5681e2f81a = L.tileLayer(
+            var tile_layer_1f985dd1f545f383c8d0c14d5616e13a = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var marker_ba4315206c71373a62a8f859619e3743 = L.marker(
+            var marker_10215ff749c79bd8c4a968ae58ea037b = L.marker(
                 [40.443257, -79.954832],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_ba4315206c71373a62a8f859619e3743.bindTooltip(
+            marker_10215ff749c79bd8c4a968ae58ea037b.bindTooltip(
                 `<div>
-                     Wicked Pie (*V)
+                     Wicked Pie (*V), American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_027287817a23836812f58110ff33e565 = L.marker(
+            var marker_669018993a67591fa149fa8884c72550 = L.marker(
                 [40.443155, -79.954902],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_027287817a23836812f58110ff33e565.bindTooltip(
+            marker_669018993a67591fa149fa8884c72550.bindTooltip(
                 `<div>
-                     PA Taco (*V)
+                     PA Taco (*V), Mexican
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_fe3f173301825021994fa265b94758f8 = L.marker(
+            var marker_63ffcd14a779150b20f05954d4036087 = L.marker(
                 [40.443179, -79.954773],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_fe3f173301825021994fa265b94758f8.bindTooltip(
+            marker_63ffcd14a779150b20f05954d4036087.bindTooltip(
                 `<div>
-                     True Burger (*V)
+                     True Burger (*V), American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_427e532b9a43904e9faa3669256f55dd = L.marker(
+            var marker_fd1ce96fb360ec4174193b7ac8186e0c = L.marker(
                 [40.443159, -79.954854],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_427e532b9a43904e9faa3669256f55dd.bindTooltip(
+            marker_fd1ce96fb360ec4174193b7ac8186e0c.bindTooltip(
                 `<div>
-                     CrEATe (*V)
+                     CrEATe (*V), American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_7437e6c449a20a5ca40d7fe82388a403 = L.marker(
+            var marker_bb712dafedd01344f6c259075d83518a = L.marker(
                 [40.443118, -79.954924],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_7437e6c449a20a5ca40d7fe82388a403.bindTooltip(
+            marker_bb712dafedd01344f6c259075d83518a.bindTooltip(
                 `<div>
-                     Ft. Pitt Subs (*V)
+                     Ft. Pitt Subs (*V), American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_198b48308b127605c0b17124eeee772b = L.marker(
+            var marker_7a86b4d20b7c37a3c25b07c836a4b9f2 = L.marker(
+                [40.442584, -79.9564556],
+                {}
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
+        
+    
+            marker_7a86b4d20b7c37a3c25b07c836a4b9f2.bindTooltip(
+                `<div>
+                     Milk and Cookies (*V), Dessert
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1a6bfa0abd8ef4930449fa7484e7240 = L.marker(
+                [40.442582, -79.956505],
+                {}
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
+        
+    
+            marker_c1a6bfa0abd8ef4930449fa7484e7240.bindTooltip(
+                `<div>
+                     The Kosher Plate (*V), Kosher
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36c2dbf9582e21032e75c0cd15666ca3 = L.marker(
+                [40.4426011, -79.956416],
+                {}
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
+        
+    
+            marker_36c2dbf9582e21032e75c0cd15666ca3.bindTooltip(
+                `<div>
+                     The Eatery (*V), Dining Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffee5c55403a6ea79c205750b1e946ff = L.marker(
+                [40.4426, -79.9564],
+                {}
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
+        
+    
+            marker_ffee5c55403a6ea79c205750b1e946ff.bindTooltip(
+                `<div>
+                     The Pierogi (*V), Polish
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bea489bd7272a5fdd3891c004641a2da = L.marker(
+                [40.44580556, -79.962487],
+                {}
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
+        
+    
+            marker_bea489bd7272a5fdd3891c004641a2da.bindTooltip(
+                `<div>
+                     The Perch (*V), Dining Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4e8103a9875d3277deb465314aa7147 = L.marker(
                 [40.44438, -79.953171],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_198b48308b127605c0b17124eeee772b.bindTooltip(
+            marker_f4e8103a9875d3277deb465314aa7147.bindTooltip(
                 `<div>
-                     The Roost
+                     The Roost, American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_debcbc162883a8592d44fd3334988864 = L.marker(
+            var marker_02b4864d532f7cd67a3d93f5f93cd8c1 = L.marker(
                 [40.444458, -79.953204],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_debcbc162883a8592d44fd3334988864.bindTooltip(
+            marker_02b4864d532f7cd67a3d93f5f93cd8c1.bindTooltip(
                 `<div>
-                     Pam & Honey (*V)
+                     Pam & Honey (*V), Mediterranean
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_3b9ac7d567b4867edbb73182111d342e = L.marker(
+            var marker_d48214ddffa92ac113352a648a073c24 = L.marker(
                 [40.44447, -79.953231],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_3b9ac7d567b4867edbb73182111d342e.bindTooltip(
+            marker_d48214ddffa92ac113352a648a073c24.bindTooltip(
                 `<div>
-                     Cathedral Sushi
+                     Cathedral Sushi, Japanese
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_bb552367469131cb238dd8cd67f75f3d = L.marker(
+            var marker_a48e4e0d092682004a0ce0fef5183e86 = L.marker(
                 [40.444348, -79.953171],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_bb552367469131cb238dd8cd67f75f3d.bindTooltip(
+            marker_a48e4e0d092682004a0ce0fef5183e86.bindTooltip(
                 `<div>
-                     Saxbys (*V)
+                     Saxbys (*V), Coffee
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_19af1b61bbb1315d0a245457486b4aa4 = L.marker(
+            var marker_0cfdf982875f82dcc52721943a5572de = L.marker(
                 [40.44232, -79.953906],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_19af1b61bbb1315d0a245457486b4aa4.bindTooltip(
+            marker_0cfdf982875f82dcc52721943a5572de.bindTooltip(
                 `<div>
-                     Saxbys (*V)
+                     Saxbys (*V), Coffee
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a820ef3ede58d0b4858564b4c736cdea = L.marker(
+            var marker_56d5d7ff2abb7f2793a31befae4e0b3c = L.marker(
                 [40.44147, -79.954512],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_a820ef3ede58d0b4858564b4c736cdea.bindTooltip(
+            marker_56d5d7ff2abb7f2793a31befae4e0b3c.bindTooltip(
                 `<div>
-                     Einstein Bros Bagels (*V)
+                     Einstein Bros Bagels (*V), American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_1fd9409ecabdedd7bc6d51fe0b7d1c68 = L.marker(
+            var marker_1dc3ecfcc48bb3e65f6fce4f22499091 = L.marker(
                 [40.443526, -79.955749],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_1fd9409ecabdedd7bc6d51fe0b7d1c68.bindTooltip(
+            marker_1dc3ecfcc48bb3e65f6fce4f22499091.bindTooltip(
                 `<div>
-                     Starbucks (*V)
+                     Starbucks (*V), Coffee
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_aba8dcabbdb5c857cc584b8c2ab14ba7 = L.marker(
+            var marker_13c312bdcdfaa681996cdc2139e4af20 = L.marker(
                 [40.443764, -79.962283],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_aba8dcabbdb5c857cc584b8c2ab14ba7.bindTooltip(
+            marker_13c312bdcdfaa681996cdc2139e4af20.bindTooltip(
                 `<div>
-                     BBQ Smokeland
+                     BBQ Smokeland, American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_daa78ada7c49a52a92b4321952bec089 = L.marker(
+            var marker_8036526bda748b6ec2f810ec6a40381c = L.marker(
                 [40.443817, -79.962337],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_daa78ada7c49a52a92b4321952bec089.bindTooltip(
+            marker_8036526bda748b6ec2f810ec6a40381c.bindTooltip(
                 `<div>
-                     Shake Smart (*V)
+                     Shake Smart (*V), Dessert
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_e34be2df8e4b44cd711dff0bb7ac6b3b = L.marker(
+            var marker_4dc49a7765d4c8e47e4c9632515020c9 = L.marker(
                 [40.443903, -79.962417],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_e34be2df8e4b44cd711dff0bb7ac6b3b.bindTooltip(
+            marker_4dc49a7765d4c8e47e4c9632515020c9.bindTooltip(
                 `<div>
-                     Chick-fil-a
+                     Chick-fil-a, American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a36780342878c9315f840d5d89f7bcfc = L.marker(
+            var marker_dc46d25dd228696a079b041805651974 = L.marker(
                 [40.443948, -79.962455],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_a36780342878c9315f840d5d89f7bcfc.bindTooltip(
+            marker_dc46d25dd228696a079b041805651974.bindTooltip(
                 `<div>
-                     Burrito Bowl (*V)
+                     Burrito Bowl (*V), Mexican
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_5f8f46fa84f2dddacb044e67b0323761 = L.marker(
+            var marker_5fc3412f4088bb649eccd2dfc2fff2b3 = L.marker(
                 [40.4441782, -79.9582627],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            marker_5f8f46fa84f2dddacb044e67b0323761.bindTooltip(
+            marker_5fc3412f4088bb649eccd2dfc2fff2b3.bindTooltip(
                 `<div>
-                     Einstein Bros Bagels (*V)
+                     Einstein Bros Bagels (*V), American
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_b24ca25d768a915b9beac0160ccdf544 = L.marker(
+            var marker_4dfc56891f1b049f42e122f8012135cc = L.marker(
                 [40.443922, -79.958131],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_0af3fb7811ed9c4aa9cd39c69e24b16c = L.AwesomeMarkers.icon(
+            var icon_4ae8c393766b1b5d7cdd747481346c9e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_b24ca25d768a915b9beac0160ccdf544.setIcon(icon_0af3fb7811ed9c4aa9cd39c69e24b16c);
+            marker_4dfc56891f1b049f42e122f8012135cc.setIcon(icon_4ae8c393766b1b5d7cdd747481346c9e);
         
     
-            marker_b24ca25d768a915b9beac0160ccdf544.bindTooltip(
+            marker_4dfc56891f1b049f42e122f8012135cc.bindTooltip(
                 `<div>
                      Bevier Engineering Library
                  </div>`,
@@ -413,19 +483,19 @@
             );
         
     
-            var marker_2716e9d3ee7f4f4250c2db7558422d72 = L.marker(
+            var marker_acbea2422fc3958a128ef9286739e101 = L.marker(
                 [40.442923, -79.96148],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_90ae7f911aecc7e36def4fa39edf9da7 = L.AwesomeMarkers.icon(
+            var icon_995a698a5b7bf5ff45731a485a23535b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_2716e9d3ee7f4f4250c2db7558422d72.setIcon(icon_90ae7f911aecc7e36def4fa39edf9da7);
+            marker_acbea2422fc3958a128ef9286739e101.setIcon(icon_995a698a5b7bf5ff45731a485a23535b);
         
     
-            marker_2716e9d3ee7f4f4250c2db7558422d72.bindTooltip(
+            marker_acbea2422fc3958a128ef9286739e101.bindTooltip(
                 `<div>
                      Falk Library of Health Sciences
                  </div>`,
@@ -433,19 +503,19 @@
             );
         
     
-            var marker_e846f87d8830f61731e56f965eff40dc = L.marker(
+            var marker_93976d4a600bfb8ae725027b1adfa2cd = L.marker(
                 [40.442444, -79.954031],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_a03b3870425cba4af3a131c2105f7289 = L.AwesomeMarkers.icon(
+            var icon_9b8de446aa62119e144df3c2708e8184 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_e846f87d8830f61731e56f965eff40dc.setIcon(icon_a03b3870425cba4af3a131c2105f7289);
+            marker_93976d4a600bfb8ae725027b1adfa2cd.setIcon(icon_9b8de446aa62119e144df3c2708e8184);
         
     
-            marker_e846f87d8830f61731e56f965eff40dc.bindTooltip(
+            marker_93976d4a600bfb8ae725027b1adfa2cd.bindTooltip(
                 `<div>
                      Hillman Library
                  </div>`,
@@ -453,19 +523,19 @@
             );
         
     
-            var marker_f84b443b30eef92a4e21e1c6b588ec36 = L.marker(
+            var marker_5b8e9ec8841a067bf02951dcdfdc665e = L.marker(
                 [40.442427, -79.954991],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_ceb16e1384f7a5790a16832c1ddb2d6c = L.AwesomeMarkers.icon(
+            var icon_858d45889d61e68189bbd17f863f4bcc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_f84b443b30eef92a4e21e1c6b588ec36.setIcon(icon_ceb16e1384f7a5790a16832c1ddb2d6c);
+            marker_5b8e9ec8841a067bf02951dcdfdc665e.setIcon(icon_858d45889d61e68189bbd17f863f4bcc);
         
     
-            marker_f84b443b30eef92a4e21e1c6b588ec36.bindTooltip(
+            marker_5b8e9ec8841a067bf02951dcdfdc665e.bindTooltip(
                 `<div>
                      Barco Law Library
                  </div>`,
@@ -473,19 +543,19 @@
             );
         
     
-            var marker_9cff2702b13c7886e5a3d70e10031db8 = L.marker(
+            var marker_12ef5b2b52a7518991d23d30489a6eb7 = L.marker(
                 [40.442787, -79.950495],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_6bf8312f97ac0d46ee267948ceaa1dba = L.AwesomeMarkers.icon(
+            var icon_da06fe88ffca3da5881b3e9753988065 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_9cff2702b13c7886e5a3d70e10031db8.setIcon(icon_6bf8312f97ac0d46ee267948ceaa1dba);
+            marker_12ef5b2b52a7518991d23d30489a6eb7.setIcon(icon_da06fe88ffca3da5881b3e9753988065);
         
     
-            marker_9cff2702b13c7886e5a3d70e10031db8.bindTooltip(
+            marker_12ef5b2b52a7518991d23d30489a6eb7.bindTooltip(
                 `<div>
                      Carnegie Library
                  </div>`,
@@ -493,19 +563,19 @@
             );
         
     
-            var marker_0bb1c426520868c9f3471d48279c81c6 = L.marker(
+            var marker_fcecab422769cf3361bd88c318cf248a = L.marker(
                 [40.441474, -79.951187],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_22b382a049fb8a823068b5603f53f38a = L.AwesomeMarkers.icon(
+            var icon_5d22cf9668fca918e2a39f26150f8dff = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0bb1c426520868c9f3471d48279c81c6.setIcon(icon_22b382a049fb8a823068b5603f53f38a);
+            marker_fcecab422769cf3361bd88c318cf248a.setIcon(icon_5d22cf9668fca918e2a39f26150f8dff);
         
     
-            marker_0bb1c426520868c9f3471d48279c81c6.bindTooltip(
+            marker_fcecab422769cf3361bd88c318cf248a.bindTooltip(
                 `<div>
                      Frick Fine Arts Library
                  </div>`,
@@ -513,19 +583,19 @@
             );
         
     
-            var marker_ef3f3021e23192f980171015de4dcb1a = L.marker(
+            var marker_c1c40bd1a5652ede9d84f99eb942a5ba = L.marker(
                 [40.44595, -79.957585],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_b9a6b7564b39db1fe3296977f88f39a0 = L.AwesomeMarkers.icon(
+            var icon_b90ffc0b9aa631aaa067c8a603e34098 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_ef3f3021e23192f980171015de4dcb1a.setIcon(icon_b9a6b7564b39db1fe3296977f88f39a0);
+            marker_c1c40bd1a5652ede9d84f99eb942a5ba.setIcon(icon_b90ffc0b9aa631aaa067c8a603e34098);
         
     
-            marker_ef3f3021e23192f980171015de4dcb1a.bindTooltip(
+            marker_c1c40bd1a5652ede9d84f99eb942a5ba.bindTooltip(
                 `<div>
                      Chemistry Library
                  </div>`,
@@ -533,19 +603,19 @@
             );
         
     
-            var marker_95dda52066cba2f8d2239af8ff995c62 = L.marker(
+            var marker_399f8e321c34e78133bc4c9dd9bee503 = L.marker(
                 [40.446685, -79.953716],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_5abe4147775f66e0b054f14a5426ba6b = L.AwesomeMarkers.icon(
+            var icon_74e4d45a09e27e851a17e71222721a16 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_95dda52066cba2f8d2239af8ff995c62.setIcon(icon_5abe4147775f66e0b054f14a5426ba6b);
+            marker_399f8e321c34e78133bc4c9dd9bee503.setIcon(icon_74e4d45a09e27e851a17e71222721a16);
         
     
-            marker_95dda52066cba2f8d2239af8ff995c62.bindTooltip(
+            marker_399f8e321c34e78133bc4c9dd9bee503.bindTooltip(
                 `<div>
                      Langley Library
                  </div>`,
@@ -553,19 +623,19 @@
             );
         
     
-            var marker_6a4ebf1990a9a9d537737b2faf8f6fc9 = L.marker(
+            var marker_20e27052a9a32ef56ee6ecad09be5f8f = L.marker(
                 [40.446731, -79.952257],
                 {}
-            ).addTo(map_673086941b45d472735657731c84718d);
+            ).addTo(map_523234bc98efdd44100f067fbd6145b7);
         
     
-            var icon_3457e6a299da5da31b8dd950cc759f0c = L.AwesomeMarkers.icon(
+            var icon_222e1e0912a9d6ea7ff7b76178aa51d6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_6a4ebf1990a9a9d537737b2faf8f6fc9.setIcon(icon_3457e6a299da5da31b8dd950cc759f0c);
+            marker_20e27052a9a32ef56ee6ecad09be5f8f.setIcon(icon_222e1e0912a9d6ea7ff7b76178aa51d6);
         
     
-            marker_6a4ebf1990a9a9d537737b2faf8f6fc9.bindTooltip(
+            marker_20e27052a9a32ef56ee6ecad09be5f8f.bindTooltip(
                 `<div>
                      Theodore M. Finney Music Library
                  </div>`,
