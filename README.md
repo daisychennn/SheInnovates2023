@@ -1,3 +1,3 @@
 # SheInnovates2023
 
-Interactive Map of Pitt's Campus
+Project: Interactive map of Pitt's campus that displays dining options for students
