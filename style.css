@@ -98,13 +98,13 @@ html, body {
     width: 50%;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: royalblue;
+    background-color: #38598b;
 }
 
 #search {
     display: flex;
     padding: 20px;
-    background-color: cornflowerblue;
+    background-color: #a2a8d3;
 }
 
 #search label {
@@ -128,7 +128,7 @@ html, body {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background-color: white;
+    background-color: #e7eaf6;
     margin-bottom: 10px;
     list-style-type: none;
 }
